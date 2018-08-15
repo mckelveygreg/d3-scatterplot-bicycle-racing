@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+    font-family: 'Libre Baskerville', serif;
+}
 #root {
-    max-width: 1100px;
+    box-sizing: border-box;
+    margin: 20px auto 0 auto;
     height: 90vh;
-    background: steelblue;
+    max-width: 1000px;
+    text-align: center;
+    background: linear-gradient(to bottom right, rgba(0, 140, 255, 0.79), #11111150);
+    box-shadow: 5px 5px 15px black;
+    border-radius: 3px;
+}
+
+#tooltip {
+    background: #333;
+    color: #bbb;
+    padding: 5px;
+    transition: .1s ease;
+
+}
+
+.dot {
+    stroke: black;
 }
